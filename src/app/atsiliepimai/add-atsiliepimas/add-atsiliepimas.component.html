@@ -1,0 +1,19 @@
+<div class="col-md-12">
+    <div class="card mt-3">
+        <div class="card-header">Pridėti atsiliepimą</div>
+        <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">Įveskite vardą</label>
+                    <input type="text" class="form-control" #vardas>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Įveskite atsiliepimą</label>
+                    <input type="text" class="form-control" #atsiliepimas>
+                </div>
+                <button class="btn btn-success" (click)="postAtsiliepimas(vardas.value, atsiliepimas.value)">Pridėti atsiliepimą</button>
+        </div>
+    </div>
+    
+</div>
+
+
